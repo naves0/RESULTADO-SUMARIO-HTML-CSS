@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: #f1f2f3;
+}
+
+.container {
+    display: flex;
+    width: 560px;
+    height: 400px;
+    margin: 70px auto;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    width: 50%;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    color: #fff;
+}
+
+.pontuacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 25px 0;
+    border-radius: 50%;
+    /*background-color: hsla(256, 72%, 46%, 0.8);*/
+    background: rgb(78,33,202);
+background: linear-gradient(180deg, rgba(78,33,202,1) 45%, rgba(78,33,202,0.8267682072829132) 70%, rgba(78,33,202,0.05646008403361347) 95%);
+}
+
+.pontos {
+    font-size: 50px;
+    line-height: 55px;
+    font-weight: 800;
+}
+
+.great {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    text-align: center;
+}
+
+.sumario {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.habilidades img {
+    margin-right: 8px;
+}
+
+.hab-reacao {
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.reacao {
+    display: flex;
+    color: hsl(0, 100%, 67%);
+}
+
+.hab-memoria {
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.memoria {
+    display: flex;
+    color: hsl(39, 100%, 56%);
+}
+
+.hab-verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.verbal {
+    display: flex;
+    color: hsl(166, 100%, 37%);
+}
+
+.hab-visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.visual {
+    display: flex;
+    color: hsl(234, 85%, 45%);
+}
+
+.botao {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 35%;
+    border-radius: 40px;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+
+.p {
+    color: #4e21ca;
+}

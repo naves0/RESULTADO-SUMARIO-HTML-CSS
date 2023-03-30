@@ -1,0 +1,16 @@
+@media (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+        width: 100vw;
+    }
+    .resultado{
+        width: 99.9%;
+        border-radius: 0 0 20px 20px;
+    }
+    .sumario {
+        width: 100%;
+    }
+}
